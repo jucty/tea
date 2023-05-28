@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:blue;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text p {
+        margin-left: 40px;
+        padding: 10px;
+        padding-left: 20px;
+
+}
+.info-text h1 {
+    margin-bottom: 40px;
+}
+.info p {
+    color: black;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    text-align: center;
+}
+.card h3 {
+    text-align: center;
+    font-size: 24px;
+}
+.card a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+
+}
+.contact a {
+    font-size: 16px;
+
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+.bprice h4 {
+    text-align: center;
+    font-size: 30px;
+}
+.link-list {
+    list-style: circle;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.dprice h5 {
+    text-align: center;
+    font-size: 30px; 
+}
+.lprice h6 {
+    text-align: center;
+    font-size: 30px; 
+}
